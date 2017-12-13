@@ -57,13 +57,12 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/BurjAlArab.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
+  background: url('images/BurjAlArab.jpg') no-repeat center / cover;
+  overflow: auto;
   padding-top: 60px;
 }
 header {
-  line-height: 3.5;
+  line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
@@ -78,8 +77,8 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
+  padding: 5px;
   color: black;
-  padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
