@@ -73,19 +73,21 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform:  skew(5deg,5deg);
 }
 .tag {
   background-color: #efefef;
   padding: 5px;
-  color: black;
+  color: darkslateblue;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  text-shadow: 0px 1px 1px rgba(0,0,0, .8);
 }
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #efefef;
+  color: darkslateblue;
+  text-shadow: 0px 1px 1px rgba(0,0,0, .8);
 }
 .card {
   margin: 30px;
