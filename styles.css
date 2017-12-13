@@ -68,12 +68,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform:  skew(5deg,5deg);
+  transform:  skew(1.5deg,1.5deg);
 }
 .tag {
   background-color: #efefef;
@@ -94,7 +94,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: black;
+  background: #fff  ;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
