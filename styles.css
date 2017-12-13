@@ -89,18 +89,39 @@ header .profile-image:hover {
   color: darkslateblue;
   text-shadow: 0px 1px 1px rgba(0,0,0, .8);
 }
-.card {
+
+.location:hover, .tag:hover{
+  color: forestgreen;
+  transform: scale(1.1);
+}
+
+.card1 {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff  ;
+  background: linear-gradient(0deg,#fff, transparent 100%),
+              url('images/sand.jpg') no-repeat center / cover;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 600;
 }
-.card:hover {
-  border-color: #ff99ff;
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: linear-gradient(0deg, #fff, transparent 100%),
+              url('images/souk.jpg') no-repeat center / cover;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 ul.skills {
@@ -115,6 +136,7 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+  font-weight: 400;
 }
 
 .skills li:nth-child(odd) {
